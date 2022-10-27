@@ -1,0 +1,225 @@
+.mynav{
+    width: 100%;
+    height:30%;
+   
+    overflow: hidden;
+   
+  
+}
+navbar{
+    border-bottom:2px solid black;
+}
+.mynav ul{
+    list-style-type: none;
+    margin-left:4rem;
+    margin: 2px 8em;
+    padding : 10px 5px;
+    
+}
+.mynav ul li {
+   display:inline-block;
+   letter-spacing: 1px;
+   margin:10px 5px;
+   padding:5px;
+   font-size: 20px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color:white;
+   line-height: 2rem;
+
+    
+}
+
+.mynav ul li a{
+    color:white;
+    text-decoration: none;
+}
+.mynav ul li a:visited{
+    color:darkmagenta
+}
+.mynav ul li a:hover{
+    color:bisque;
+}
+
+
+
+#logo{
+    position:absolute;
+    top:0px; 
+    left:0px;
+    width:60px;
+    height:90px;
+    overflow:hidden;
+    border-bottom: 2px solid black;
+}
+
+
+
+#searchbar{
+    
+    float:right;
+    padding: 5px;
+  
+    
+}
+form{
+display:inline-flex; 
+align-content:top;
+float:right;
+
+margin-top:10px;
+margin-bottom: 10px;
+padding:10px;
+}
+#searchbtn{
+   
+  width: 10%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  
+}
+
+
+#section3{
+    display: flex;
+    flex-direction: column;
+ 
+    background-image:linear-gradient(to top , rgb(137, 137, 232),white);
+}
+
+#section3 form  , .container-1{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.container-2{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container-2 .box2{
+  
+}
+.container-1 .box{
+ width:60%;
+  
+}
+
+.myinput{
+   
+    align-self: stretch;
+}
+
+* {box-sizing:border-box}
+#section1{
+ /* background-color: rgba(111, 207, 241, 0.62); */
+ background-image:linear-gradient( rgb(117, 211, 246) , rgb(248, 248, 248));
+}
+#section2{
+    background-image:linear-gradient(to bottom right, rgba(43, 167, 212, 0.62) , rgb(248, 248, 248));
+
+   
+    overflow: hidden;
+   
+}
+/* Slideshow container */
+.slideshow-container {
+padding-top:20px;
+  max-width: 40%;
+  height: 30% !important;
+  position: relative;
+  margin: auto;
+ 
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#SeeAll{
+    float:right;
+}
+
